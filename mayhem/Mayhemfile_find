@@ -1,0 +1,5 @@
+project: libcuckoo
+target: find
+cmds:
+  - cmd: /fuzz_find
+    libfuzzer: true
